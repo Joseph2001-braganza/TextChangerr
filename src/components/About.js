@@ -63,7 +63,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <button className="btn btn-primary mb-3" onClick={togbtn}>{btn}</button>
+            <button className="btn btn-primary mb-3 my-2" onClick={togbtn}>{btn}</button>
         </div>
     )
 }

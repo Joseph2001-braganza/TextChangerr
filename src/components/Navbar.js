@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 export default function Navbar(props) {
     return (
         <nav className={`navbar navbar-expand-lg navbar-${props.mode} shadow bg-${props.mode}`} style={{ fontFamily: "sans-serif" }}>
@@ -11,10 +12,10 @@ export default function Navbar(props) {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                         <li className="nav-item">
-                            <a className="nav-link active fw-normal" aria-current="page" href="https://home">Home</a>
+                            <Link className="nav-link active fw-normal" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link fw-normal" href="About.js">About</a>
+                            <Link className="nav-link fw-normal" to="/about">About</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle fw-normal" id="navbarDropdown" href="https://www.more.com" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -27,7 +28,7 @@ export default function Navbar(props) {
                             </ul>
                         </li>
                     </ul>
-                    <form className="d-flex" action="https://www.google.co.in/search">
+                    <form className="d-flex" action="https://www.google.co.in/search" autocomplete="off" target="_blank">
                         <input className={`form-control  bg-${props.mode === 'light' ? 'light ' : 'secondary text-light'}`} type="search" placeholder="Find Article" aria-label="Search" name="q" />
                         <button className="btn btn-outline-danger ms-2 bg-light" type="submit">Search</button>
                     </form>

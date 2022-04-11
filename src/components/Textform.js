@@ -47,10 +47,10 @@ export default function Textform(props) {
                         fontFamily: fontFamily1 ? "sans-serif" : "normal",
                     }} placeholder="Write in Here" value={text} onChange={handleOnChange} className={`form-control bg-${props.mode === 'light' ? 'light' : 'secondary text-light'}`} id="box" rows="8"></textarea>
                 </div>
-                <button className="mb-3 ms-5 me-3 btn btn-primary" onClick={handleUpclick} >Convert to UpperCase</button>
-                <button className="mb-3 ms-5 me-3 btn btn-primary" onClick={handleLoclick} >Convert to lowerCase</button>
-                <button className="mb-3 ms-5 me-3 btn btn-primary" onClick={handleTitleclick} >Convert to TitleCase</button>
-                <button className="mb-3 ms-5 me-3 btn btn-success" onClick={handleClear}>Clear</button>
+                <button className="mb-3 ms-5 me-3 btn btn-primary mx-1 my-1" onClick={handleUpclick} >Convert to UpperCase</button>
+                <button className="mb-3 ms-5 me-3 btn btn-primary mx-1 my-1" onClick={handleLoclick} >Convert to lowerCase</button>
+                <button className="mb-3 ms-5 me-3 btn btn-primary mx-1 my-1" onClick={handleTitleclick} >Convert to TitleCase</button>
+                <button className="mb-3 ms-5 me-3 btn btn-success mx-1 my-1" onClick={handleClear}>Clear</button>
                 <div className="dropdown mb-3 ms-5 me-3">
                     <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         Styles
@@ -64,7 +64,7 @@ export default function Textform(props) {
             <div className="container-hover">
                 <div className={`mb-3 ms-5 me-5  text-${props.mode === 'light' ? 'dark' : 'light'}`}>
                     <h2 className="text-danger">Summary</h2>
-                    <p>words :{text.split(' ').filter((ele) => { return ele.length !== 0 }).length} and characters :{text.length}</p>
+                    <p>words :{text.split(" ").filter((ele) => { return ele.length !== 0 }).length} and characters :{text.length}</p>
                     <h3 className="text-danger">Estimated time to Read</h3>
                     <p>{0.008 * text.split(" ").length} min</p>
                 </div>

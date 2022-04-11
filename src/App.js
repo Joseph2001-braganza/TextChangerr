@@ -1,7 +1,14 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
+import About from './components/About';
 import React, { useState } from 'react'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState('light')
@@ -20,10 +27,20 @@ function App() {
   }
   return (
     <>
-      <Navbar title="TextChanger" mode={mode} toggle={darkenable} switch1={switchtext} />
-      <div className="container my-4">
-        <Textform heading="Enter Text To Analyze" mode={mode} />
-      </div>
+      <Router>
+        <Navbar title="TextChanger" mode={mode} toggle={darkenable} switch1={switchtext} />
+        <div className="container my-4">
+
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/">
+              <Textform heading="Enter Text To Analyze" mode={mode} />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
     </>
   );
 }
