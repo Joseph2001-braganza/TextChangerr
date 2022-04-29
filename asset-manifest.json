@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TextChangerr/static/css/main.f40c99ce.chunk.css",
+    "main.js": "/TextChangerr/static/js/main.3e723150.chunk.js",
+    "main.js.map": "/TextChangerr/static/js/main.3e723150.chunk.js.map",
+    "runtime-main.js": "/TextChangerr/static/js/runtime-main.7668362d.js",
+    "runtime-main.js.map": "/TextChangerr/static/js/runtime-main.7668362d.js.map",
+    "static/js/2.623574c2.chunk.js": "/TextChangerr/static/js/2.623574c2.chunk.js",
+    "static/js/2.623574c2.chunk.js.map": "/TextChangerr/static/js/2.623574c2.chunk.js.map",
+    "static/js/3.425db54f.chunk.js": "/TextChangerr/static/js/3.425db54f.chunk.js",
+    "static/js/3.425db54f.chunk.js.map": "/TextChangerr/static/js/3.425db54f.chunk.js.map",
+    "index.html": "/TextChangerr/index.html",
+    "static/css/main.f40c99ce.chunk.css.map": "/TextChangerr/static/css/main.f40c99ce.chunk.css.map",
+    "static/js/2.623574c2.chunk.js.LICENSE.txt": "/TextChangerr/static/js/2.623574c2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7668362d.js",
+    "static/js/2.623574c2.chunk.js",
+    "static/css/main.f40c99ce.chunk.css",
+    "static/js/main.3e723150.chunk.js"
+  ]
+}
