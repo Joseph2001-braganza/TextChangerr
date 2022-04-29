@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TextChangerr/static/css/main.f40c99ce.chunk.css",
-    "main.js": "/TextChangerr/static/js/main.17c71bb7.chunk.js",
-    "main.js.map": "/TextChangerr/static/js/main.17c71bb7.chunk.js.map",
+    "main.js": "/TextChangerr/static/js/main.db962fdf.chunk.js",
+    "main.js.map": "/TextChangerr/static/js/main.db962fdf.chunk.js.map",
     "runtime-main.js": "/TextChangerr/static/js/runtime-main.7668362d.js",
     "runtime-main.js.map": "/TextChangerr/static/js/runtime-main.7668362d.js.map",
     "static/js/2.623574c2.chunk.js": "/TextChangerr/static/js/2.623574c2.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7668362d.js",
     "static/js/2.623574c2.chunk.js",
     "static/css/main.f40c99ce.chunk.css",
-    "static/js/main.17c71bb7.chunk.js"
+    "static/js/main.db962fdf.chunk.js"
   ]
 }
